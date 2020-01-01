@@ -1,0 +1,114 @@
+
+footer {
+  background: #383838;
+  height: 100%;
+  margin-top: 50px;
+}
+/**/
+.tx-div {
+    background: white;
+    width: 70px;
+    display: block;
+    height: 3px;
+    opacity: .8;
+    margin:0 5px 10px 0;
+}
+.tx-div-full {
+    background: white;
+    width: 100%;
+    display: block;
+    height: 3px;
+    opacity: 1;
+    margin: 0 5px 10px 0;
+}
+.footer-top{
+  display: flex;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+.footer-list-top{
+  flex:0 0 25%;
+  padding: 30px;
+
+}
+
+
+.footer-list-top-item > h4{
+  font-size: 20px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px;
+}
+.footer-list-top-item > p,a{
+  color: #8DB9ED;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  padding: 7px;
+
+}
+
+.footer-social-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgb(55,55,55);
+  padding: 0 20px;
+  flex: 0 0 50%;
+}
+.footer-social-overlap > a {
+  font-size: 3em
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 2.5em "Oswald", sans-serif;
+  color: #fff
+}
+
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px
+}
+.footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.footer-bottom-wrapper > p{
+  color: white;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 425px) {
+  .footer-social-overlap{
+    font-size: 1.2em;
+  }
+  .footer-social-icons-wrapper{
+    flex-wrap: wrap;
+  }
+  .footer-social-icons-wrapper > i{
+    width: 25%;
+    height: 25%;
+  }
+}
